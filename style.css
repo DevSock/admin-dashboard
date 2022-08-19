@@ -203,3 +203,29 @@ nav h1 .nav-item-icon {
   cursor: pointer;
   padding: 0px 25px;
 }
+
+/*//////////////////////////////////////////////*/
+/* Main content */
+/*//////////////////////////////////////////////*/
+main {
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header"
+    "content";
+  grid-area: main;
+  background-color: #f0fdf4;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #f0fdf4;
+  grid-template-areas:
+    "top"
+    "bottom";
+  grid-area: header;
+  padding: 25px 50px;
+  font-size: 1.5rem;
+  gap: 25px;
+}
