@@ -295,6 +295,8 @@ header {
 .bottom .user .profile-img {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
+  height: 4em;
+  width: 4em;
 }
 
 .bottom .welcome {
