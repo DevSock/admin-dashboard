@@ -319,3 +319,7 @@ header {
   font-weight: 600;
   color: #f0fdf4;
 }
+
+main .content {
+  overflow: scroll;
+}
