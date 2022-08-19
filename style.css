@@ -187,7 +187,7 @@ nav h1 .nav-item-icon {
 
 .nav-list {
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   font-size: 1.4rem;
 }
 
