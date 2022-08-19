@@ -184,3 +184,17 @@ nav h1 {
 nav h1 .nav-item-icon {
   font-size: 1.4rem;
 }
+
+.nav-list {
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.4rem;
+}
+
+.nav-list:last-child {
+  padding-bottom: 25px;
+}
+
+.nav-list-anchor {
+  margin-top: auto;
+}
