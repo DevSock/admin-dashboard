@@ -160,7 +160,7 @@ nav {
   grid-template-rows: repeat(2, auto) 1fr;
   gap: 50px;
   background-color: #15803d;
-  font-weight: 500;
+  font-weight: 400;
   color: #f0fdf4;
 }
 
@@ -181,13 +181,13 @@ nav h1 {
 }
 
 nav h1 .nav-item-icon {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav-list {
   flex-direction: column;
   gap: 20px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav-list:last-child {
@@ -228,4 +228,50 @@ header {
   padding: 25px 50px;
   font-size: 1.5rem;
   gap: 25px;
+}
+
+.top {
+  grid-template-columns: 1fr auto;
+  grid-area: top;
+  gap: 50px;
+}
+
+.search {
+  gap: 10px;
+  align-items: center;
+}
+
+.header-icon {
+  height: 1em;
+  width: 1em;
+}
+
+.search input {
+  flex: 1;
+  max-width: 800px;
+  min-height: 30px;
+  border: none;
+  background-color: #bbf7d0;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.search input::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.top .user {
+  gap: 25px;
+  align-items: center;
+  font-weight: 600;
+}
+.top .user .header-icon {
+  font-size: 2rem;
+}
+
+.user .profile-img {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
 }
