@@ -198,3 +198,9 @@ nav h1 .nav-item-icon {
 .nav-list-anchor {
   margin-top: auto;
 }
+
+.nav-item {
+  align-items: center;
+  cursor: pointer;
+  padding: 0px 25px;
+}
