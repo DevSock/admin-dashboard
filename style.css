@@ -149,9 +149,6 @@ body {
 /* Aside navbar */
 /*//////////////////////////////////////////////*/
 aside {
-  position: sticky;
-  top: 0;
-  align-self: start;
   height: 100vh;
   grid-area: aside;
 }
@@ -214,13 +211,11 @@ main {
     "content";
   grid-area: main;
   background-color: #f0fdf4;
+  height: 100vh;
 }
 
 /* Header */
 header {
-  position: sticky;
-  top: 0;
-  background-color: #f0fdf4;
   grid-template-areas:
     "top"
     "bottom";
