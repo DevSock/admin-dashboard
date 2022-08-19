@@ -142,7 +142,6 @@ table {
 body {
   grid-template-columns: minmax(300px, auto) 1fr;
   grid-template-areas: "aside main";
-  gap: 10px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -182,13 +181,13 @@ nav h1 {
 }
 
 nav h1 .nav-item-icon {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .nav-list {
   flex-direction: column;
   gap: 20px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .nav-list:last-child {
