@@ -145,3 +145,42 @@ body {
   gap: 10px;
   font-family: "Roboto", sans-serif;
 }
+
+/*//////////////////////////////////////////////*/
+/* Aside navbar */
+/*//////////////////////////////////////////////*/
+aside {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
+  grid-area: aside;
+}
+
+nav {
+  grid-template-rows: repeat(2, auto) 1fr;
+  gap: 50px;
+  background-color: #15803d;
+  font-weight: 500;
+  color: #f0fdf4;
+}
+
+nav h1 {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 25px 0 0 25px;
+}
+
+.nav-item-icon {
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 10px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(110deg)
+    brightness(112%) contrast(106%);
+}
+
+nav h1 .nav-item-icon {
+  font-size: 1.4rem;
+}
