@@ -336,7 +336,7 @@ header {
 /* Content */
 /*//////////////////////////////////////////////*/
 .content {
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr clamp(300px, 25%, 800px);
   grid-template-areas:
     "projects announcements"
     "projects trending";
@@ -399,6 +399,7 @@ header {
 
 .announcements {
   grid-area: announcements;
+  grid-template-rows: auto 1fr;
   gap: 25px;
 }
 
