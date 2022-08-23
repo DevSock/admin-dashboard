@@ -332,6 +332,7 @@ header {
   grid-template-areas:
     "projects announcements"
     "projects trending";
+  grid-auto-rows: min-content;
   overflow: scroll;
   padding: 35px 25px;
   background-color: #bbf7d0;
@@ -344,8 +345,8 @@ header {
   gap: 25px;
 }
 
-.projects-title {
-  font-size: 1.2rem;
+.projects .title {
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -359,7 +360,6 @@ header {
   background-color: #f0fdf4;
   padding: 20px;
   border-radius: 10px;
-  font-size: 1.2rem;
   border-left: 10px solid #22c55e;
   -webkit-box-shadow: 0px 2px 15px -9px #000000;
   box-shadow: 0px 2px 15px -9px #000000;
@@ -367,11 +367,12 @@ header {
 }
 
 .project .title {
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 .project .description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #3d4451;
 }
