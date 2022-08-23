@@ -139,6 +139,13 @@ table {
   display: flex;
 }
 
+.profile-img {
+  border: 2px solid #22c55e;
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+}
+
 body {
   grid-template-columns: minmax(300px, auto) 1fr;
   grid-template-areas: "aside main";
@@ -267,14 +274,16 @@ header {
   align-items: center;
   font-weight: 600;
 }
+
 .top .user .header-icon {
   font-size: 2rem;
+  cursor: pointer;
 }
 
-.user .profile-img {
+.top .user .profile-img {
   height: 2.5em;
   width: 2.5em;
-  border-radius: 50%;
+  cursor: pointer;
 }
 
 .bottom {
@@ -294,8 +303,6 @@ header {
 .bottom .user .profile-img {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
-  height: 4em;
-  width: 4em;
 }
 
 .bottom .welcome {
@@ -322,6 +329,7 @@ header {
   font-size: 1.2rem;
   font-weight: 600;
   color: #f0fdf4;
+  cursor: pointer;
 }
 
 /*//////////////////////////////////////////////*/
@@ -460,11 +468,9 @@ header {
 
 .trend .profile-img {
   grid-area: profile-img;
-  height: 4em;
-  width: 4em;
-  border-radius: 50%;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .trend .handle {
